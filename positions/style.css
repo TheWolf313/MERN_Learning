@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    /* border-radius: 50%; */
+}
+.bg-red{
+    background-color: red;
+    color: white;
+}
+.bg-green{
+    background-color: green;
+    color: white;
+}
+,bg-blue{
+    background-color: blue;
+    color: white;
+    z-index: 1;
+}
+.position{
+    position: fixed;
+    /* Change the position value to see different effects */
+    top: 10px;
+    right: 10px;
+    border: 2px solid black;
+}
+.position2{
+    position: sticky;
+    top: 50px;
+    border: 2px solid black;
+}
+.position3{
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    border: 2px solid black;
+}
